@@ -35,4 +35,11 @@
         android:text="递归算法和阶乘"
         />
 
+    <Button
+        android:id="@+id/btn_quick_sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="快速排序分而治之"
+        />
+
 </LinearLayout>

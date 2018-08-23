@@ -7,6 +7,7 @@ package com.rain.algorithmdemo.algorithm;
  * 在某个函数体内调用自己函数的函数
  * 基线条件：跳出递归的条件
  * 递归条件：引发调用自己函数的条件
+ * 注意每个fact x都有自己的x变量，在一个函数调用中，不能访问另一个x变量
  */
 public class Recursion {
     // 阶乘算法
