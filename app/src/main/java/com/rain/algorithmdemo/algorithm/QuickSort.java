@@ -15,19 +15,6 @@ import java.util.List;
  */
 public class QuickSort {
     private static final String TAG  = "QuickSort";
-    // 使用分而治之的思想用递归求和
-    // TODO: 2018/8/20 未能写出来
-    public static int getSum(int[] arr) {
-        int len = arr.length;
-        if (len == 0) {
-            return 0;
-        } else if (len == 1) {
-            return arr[0];
-        } else {
-//            return arr[0]+
-        }
-        return -1;
-    }
 
     // TODO: 2018/8/20 有错误
     public static List qSort(List<Integer> list) {
